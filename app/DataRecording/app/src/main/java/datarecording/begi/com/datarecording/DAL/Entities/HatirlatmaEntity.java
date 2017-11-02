@@ -9,7 +9,7 @@ public class HatirlatmaEntity extends EntityBase {
     private String Metin;
     private String Tarih;
 
-    public HatirlatmaEntity(int ID, int kategori, String metin, String tarih) {
+    public HatirlatmaEntity(int ID, String metin,int kategori, String tarih) {
         super(ID);
         Kategori = kategori;
         Metin = metin;
