@@ -5,6 +5,7 @@ import android.content.Context;
 import java.util.Vector;
 
 import datarecording.begi.com.datarecording.DAL.Entities.EntityBase;
+import datarecording.begi.com.datarecording.DAL.Repositories.DbGateway;
 
 /**
  * Created by asus1 on 2.11.2017.

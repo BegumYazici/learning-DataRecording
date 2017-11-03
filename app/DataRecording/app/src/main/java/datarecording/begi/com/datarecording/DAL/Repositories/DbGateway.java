@@ -6,20 +6,20 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 /**
- * Created by asus1 on 2.11.2017.
+ * Created by aykut on 27.2.2015.
  */
-public class DbGateway extends SQLiteOpenHelper{
-
+public class DbGateway extends SQLiteOpenHelper
+{
     public DbGateway(Context context, String dbname, SQLiteDatabase.CursorFactory cf, int version)
     {
         super(context, dbname, cf, version);
     }
 
-
     @Override
-    public void onCreate(SQLiteDatabase db) {
-        db.execSQL("Create table Kategoriler(No INTEGER PRIMARY KEY, Aciklama TEXT);");
-        db.execSQL("Create table Hatirlatmalar(_id INTEGER PRIMARY KEY, Metin TEXT, Kategori NUMBER, Tarih TEXT);");
+    public void onCreate(SQLiteDatabase db)
+    {
+        db.execSQL("Create Table Kategoriler(No INTEGER PRIMARY KEY, Aciklama TEXT);");
+        db.execSQL("Create Table Hatirlatmalar(_id  INTEGER PRIMARY KEY, Metin TEXT, Kategori NUMBER, Tarih TEXT)");
     }
 
     @Override

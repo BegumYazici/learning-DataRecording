@@ -5,19 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="datarecording.begi.com.datarecording.MainActivity">
+    tools:context=".DAL.MainActivity">
 
     <Spinner
-        android:id="@+id/spnId"
+        android:id="@+id/spnID"
+        android:prompt="@string/prm2"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:spinnerMode="dialog"></Spinner>
+        android:spinnerMode="dialog">
+
+    </Spinner>
 
     <Spinner
         android:id="@+id/spnCategory"
+        android:prompt="@string/prm1"
         android:layout_width="match_parent"
         android:layout_height="80dp"
-        android:spinnerMode="dropdown"></Spinner>
+        android:spinnerMode="dropdown">
+
+    </Spinner>
 
     <EditText
         android:id="@+id/txtText"

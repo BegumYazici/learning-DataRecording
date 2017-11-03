@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Data Recording</string>
+
+    <string name="prm1">Kategori seçiniz</string>
+
+    <string name="prm2">Hatırlatma seçiniz</string>
 </resources>
